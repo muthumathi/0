@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Dropdown</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+  </head>
+	<body>
+		<div class="jumbotron text-center">
+			<h1>Dropdown</h1>
+			<p>A dropdown menu is a toggleable menu that allows the user to choose one value from a predefined list.</p>
+		</div>
+		<div class="container">
+			<div class="page-header">
+				<h2>Basic Dropdown</h2>
+			</div>
+			<div class="dropdown">
+			  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Web Development Course
+			  <span class="caret"></span></button>
+			  <ul class="dropdown-menu">
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li><a href="#">JavaScript</a></li>
+			  </ul>
+			</div>			
+
+			<div class="page-header">
+				<h2>Dropdown Divider</h2>
+			</div>
+			<div class="dropdown">
+			  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Web Development Course
+			  <span class="caret"></span></button>
+			  <ul class="dropdown-menu">
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li class="divider"></li>
+				<li><a href="#">JavaScript</a></li>
+			  </ul>
+			</div>	
+			<div class="page-header">
+				<h2>Dropdown Heading</h2>
+			</div>
+			<div class="dropdown">
+			  <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Web Development Course
+			  <span class="caret"></span></button>
+			  <ul class="dropdown-menu">
+				<li class="disabled"><a href="#">No coding skills</a></li>
+				<li><a href="#">HTML</a></li>
+				<li><a href="#">CSS</a></li>
+				<li class="divider"></li>
+				<li class="disabled"><a href="#">Coding Skill</a></li>
+				<li><a href="#">JavaScript</a></li>
+			  </ul>
+			</div>
+			
+			<div class="page-header">
+				<h2>Dropup</h2>
+			</div>
+			<div class="dropup">
+				<button class="btn btn-success dropdown-toggle" type="button" data-toggle="dropdown">Dropup Example
+				<span class="caret"></span></button>
+				<ul class="dropdown-menu">
+				  <li><a href="#">HTML</a></li>
+				  <li><a href="#">CSS</a></li>
+				  <li><a href="#">JavaScript</a></li>
+				  <li class="divider"></li>
+				  <li><a href="#">About Us</a></li>
+				</ul>
+			  </div>
+			<br /><br />
+		</div>
+		
+		<script src="js/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</body>
+</html>
